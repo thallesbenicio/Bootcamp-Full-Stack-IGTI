@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Color Range</title>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <p>
+          <span>(R) Vermelho:</span>
+          <input
+            type="range"
+            value="0"
+            id="rangeR"
+            min="0"
+            max="255"
+            step="1"
+          />
+          <input type="text" value="0" name="" id="inputR" readonly disabled />
+        </p>
+        <p>
+          <span>(G) Verde:</span>
+          <input
+            type="range"
+            value="0"
+            id="rangeG"
+            min="0"
+            max="255"
+            step="1"
+          />
+          <input type="text" value="0" name="" id="inputG" readonly disabled />
+        </p>
+        <p>
+          <span>(B) Azul:</span>
+          <input
+            type="range"
+            value="0"
+            id="rangeB"
+            min="0"
+            max="255"
+            step="1"
+          />
+          <input type="text" value="0" name="" id="inputB" readonly disabled />
+        </p>
+        <div class="colorRgb"></div>
+      </div>
+      <p></p>
+      <p></p>
+      <p></p>
+    </form>
+    <script src="js/script.js"></script>
+  </body>
+</html>

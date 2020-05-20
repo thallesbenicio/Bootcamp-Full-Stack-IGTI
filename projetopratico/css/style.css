@@ -1,0 +1,35 @@
+body {
+  padding: 30px;
+  background-color: #ccc;
+}
+
+.container {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 0 auto;
+  margin: 30px;
+  max-width: 50%;
+  align-items: center;
+  border: solid 1px #555;
+  border-radius: 1em;
+}
+
+.container input[type='text'] {
+  background-color: #555;
+  margin: 15px;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.colorRgb {
+  background-color: #fff;
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+}
